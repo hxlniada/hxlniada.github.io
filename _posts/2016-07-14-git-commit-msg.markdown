@@ -4,7 +4,7 @@ title:  "git代码提交规范"
 date:   2016-07-13 10:18:00
 categories: git 规范
 ---
-git代码的提交信息中，应该写什么，原文[http://karma-runner.github.io/0.10/dev/git-commit-msg.html](http://karma-runner.github.io/0.10/dev/git-commit-msg.html)
+git代码的提交信息中，应该写什么，[原文链接](http://karma-runner.github.io/0.10/dev/git-commit-msg.html)
 
 ##### Format of the commit message:
 >
