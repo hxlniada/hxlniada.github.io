@@ -1,6 +1,6 @@
-name: Your New Jekyll Site
+name: 黄雪良的博客
 description: Blogging about stuffs
-meta_description: "Your New Jekyll Site, Blogging about stuffs"
+meta_description: "黄雪良的博客，前端技术博客s"
 
 markdown: kramdown
 highlighter: pygments
@@ -13,4 +13,4 @@ gems: [jekyll-paginate]
 
 # Details for the RSS feed generator
 url:            'blog url'
-author:         'Your Name'
+author:         '黄雪良'

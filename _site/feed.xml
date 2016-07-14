@@ -5,9 +5,71 @@
     <description>Blogging about stuffs</description>
     <link>blog url//</link>
     <atom:link href="blog url//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 06 Jul 2016 20:11:41 +0800</pubDate>
-    <lastBuildDate>Wed, 06 Jul 2016 20:11:41 +0800</lastBuildDate>
+    <pubDate>Thu, 14 Jul 2016 14:36:54 +0800</pubDate>
+    <lastBuildDate>Thu, 14 Jul 2016 14:36:54 +0800</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>git代码提交规范</title>
+        <description>&lt;blockquote&gt;
+
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;from &lt;a href=&quot;http://karma-runner.github.io/0.10/dev/git-commit-msg.html&quot;&gt;http://karma-runner.github.io/0.10/dev/git-commit-msg.html&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h5 id=&quot;format-of-the-commit-message&quot;&gt;Format of the commit message:&lt;/h5&gt;
+&lt;blockquote&gt;
+
+&lt;/blockquote&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;type&amp;gt;&lt;/span&gt;(&lt;span class=&quot;nt&quot;&gt;&amp;lt;scope&amp;gt;&lt;/span&gt;): &lt;span class=&quot;nt&quot;&gt;&amp;lt;subject&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;footer&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h5 id=&quot;message-subject-first-line&quot;&gt;Message subject (first line)&lt;/h5&gt;
+&lt;p&gt;First line cannot be longer than 70 characters, second line is always blank and other lines should be wrapped at 80 characters.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Allowed &lt;code&gt;&amp;lt;type&amp;gt;&lt;/code&gt; values:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;feat&lt;/em&gt; (new feature)&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;fix&lt;/em&gt; (bug fix)&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;docs&lt;/em&gt; (changes to documentation)&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;style&lt;/em&gt; (formatting, missing semi colons, etc; no code change)&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;refactor&lt;/em&gt; (refactoring production code)&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;test&lt;/em&gt; (adding missing tests, refactoring tests; no production code change)&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;chore&lt;/em&gt; (updating grunt tasks etc; no production code change)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Example &lt;code&gt;&amp;lt;scope&amp;gt;&lt;/code&gt; values:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;init&lt;/li&gt;
+  &lt;li&gt;runner&lt;/li&gt;
+  &lt;li&gt;watcher&lt;/li&gt;
+  &lt;li&gt;config&lt;/li&gt;
+  &lt;li&gt;web-server&lt;/li&gt;
+  &lt;li&gt;proxy&lt;/li&gt;
+  &lt;li&gt;etc.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The &lt;code&gt;&amp;lt;scope&amp;gt;&lt;/code&gt; can be empty (eg. if the change is a global or difficult to assign to a single component), in which case the parentheses are omitted.&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 13 Jul 2016 18:18:00 +0800</pubDate>
+        <link>blog url//git/%E8%A7%84%E8%8C%83/2016/07/13/git-commit-msg.html</link>
+        <guid isPermaLink="true">blog url//git/%E8%A7%84%E8%8C%83/2016/07/13/git-commit-msg.html</guid>
+        
+        
+        <category>git</category>
+        
+        <category>规范</category>
+        
+      </item>
     
       <item>
         <title>Welcome to Jekyll!</title>
