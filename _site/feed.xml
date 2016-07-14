@@ -5,19 +5,13 @@
     <description>Blogging about stuffs</description>
     <link>blog url//</link>
     <atom:link href="blog url//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 14 Jul 2016 14:36:54 +0800</pubDate>
-    <lastBuildDate>Thu, 14 Jul 2016 14:36:54 +0800</lastBuildDate>
+    <pubDate>Thu, 14 Jul 2016 14:40:14 +0800</pubDate>
+    <lastBuildDate>Thu, 14 Jul 2016 14:40:14 +0800</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
         <title>git代码提交规范</title>
-        <description>&lt;blockquote&gt;
-
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;from &lt;a href=&quot;http://karma-runner.github.io/0.10/dev/git-commit-msg.html&quot;&gt;http://karma-runner.github.io/0.10/dev/git-commit-msg.html&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+        <description>&lt;p&gt;git代码的提交信息中，应该写什么，原文&lt;a href=&quot;http://karma-runner.github.io/0.10/dev/git-commit-msg.html&quot;&gt;http://karma-runner.github.io/0.10/dev/git-commit-msg.html&lt;/a&gt;&lt;/p&gt;
 
 &lt;h5 id=&quot;format-of-the-commit-message&quot;&gt;Format of the commit message:&lt;/h5&gt;
 &lt;blockquote&gt;
