@@ -1,52 +1,131 @@
-# Kasper
+## About
+Monochrome is a minimal, responsive, ready to use Jekyll theme for blogging. [Demo](https://dyutibarma.github.io/monochrome/)
+(Built on top of Emerald Jekyll theme)
 
-> This is a port of Ghost's default theme [Casper](https://github.com/tryghost/casper) for Jekyll. 
-Feel free to fork, change, modify and re-use it.
+## Features
 
-## Installation
+- Completely responsive and mobile first
+- Clean SEO friendly URLs, auto-generated from post title (no messy dates in the url)
+- SEO title/description integration
+- Sitemap ready
+- Pagination support
+- Mobile friendly navigation menu
+- Easy customization for header, footer, navigation links, colors, favicon etc
+- Default Monochrome Color Palette - black, white, greys
+- About page
+- 404 page
+- ..and a lot more
 
-    git clone https://github.com/rosario/kasper.git
-    cd kasper
-    gem install jekyll
-    gem install pygments.rb
+## Install/Setup Jekyll
 
-## How to use it
+(Skip if you already have Jekyll 2.2)
 
-Build page and start local web server
+1. Make sure Ruby 2.2 is installed 
+```
+sudo apt-get install ruby2.2
+sudo apt-get install ruby2.2-dev
+```
+2. Install bundle: `sudo gem install bundler`
+3. Install jekyll: `sudo gem install jekyll`
 
-    jekyll serve
+### Resources
 
-Build page into `_site` folder
-
-    jekyll build
-
-## Kasper theme includes
-
-* Pagination
-* Rss
-* Google Analytics Tracking code
-* Code Syntax Highlight
-* Author's profile with picture
-* Disqus comments
-
-## Screenshots
-
-![index page](https://raw.github.com/rosario/kasper/master/assets/images/kasper-theme-index.png)
-![post page](https://raw.github.com/rosario/kasper/master/assets/images/kasper-theme-post.png)
+- We found the jekyll tutorials on youtube very quick and useful to get started
+- [Jekyll documentation](http://jekyllrb.com)   
 
 
-## Thanks
+## Install Monochrome dependencies
 
-Most of the work has been already done by the Ghost team, I've just ported Casper to Jekyll. 
-I've also added few things specific to Jekyll and some minor style changes.
+```
+sudo gem install jekyll-paginate
+sudo gem install jekyll-sitemap
 
-## Copyright & License
+```
 
-Copyright (C) 2013 Ghost Foundation - Released under the MIT License.
+## Get Started with Monochrome
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+### Option 1 
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+- Fork this repository
+- (Optional) Change the 'baseurl' value in the 'config.yml' file, from '/blog' to your preferred directory/project name (example '/xyz' or '/' to install in root)
+- Clone the forked repository to your local machine to make changes
+- Run 'jekyll serve' and open browser to 'localhost:4000/blog/' to see your changes
+- (Optional) Host with github pages
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+Note: If you fork the repository, your version of the repository will not be searchable. If you want searchability, we suggest you use the next option.
+
+
+### Option 2
+
+- Simply download the .zip folder from the repository github page
+- Extract the contents from the .zip folder into your local folder
+- cd into monochrome/
+- Run 'jekyll serve' and open browser to 'localhost:4000/blog/' to see your changes
+- Create a repository in github and push the files
+- (Optional) Host with github pages
+
+## Write a Post
+
+- cd into  ``_posts/``
+- create new file with format yyyy-mm-dd-title-of-post.md
+- add title/description (refer any of the test posts)
+- add markdown and save
+
+
+## Customization Options
+
+You can customize this layout using instructions below. 
+
+### Header/Footer/Navigation
+
+Set a custom header tag by setting the related option in the ``_config.yml`` file to "true". Then insert your custom code into the ``header-custom.html`` file.
+In the same way, you can customize the footer of the navigation menu, by setting to "true" the related option and put your code into the ``nav-footer-custom.html`` file.
+Moreover select a reverse option that allows to move the navigation menu to the left side, by setting it to "true".
+
+### Colors
+
+The basic colors are set into the ``base.scss`` file:
+- $background-color: used for background and links in the navigation menu
+- $text-color: used for text and title in posts and pages 
+- $text-light-color: used for text lighter than text-color
+- $text-dark-color: used for text darker than text-color
+
+To customize the colors, just set the values in HEX, RGB (or RGBa) or any other format accepted by CSS.
+
+### Navigation menu
+
+The links inside the navigation menu are autogenerated from pages having the layout set to ``page``.
+You can set custom links, by putting in the ``<a>`` tag into the ``link.html`` file.
+
+### Branch
+There are two branches: 
+- ``master``: is for development.
+- ``gh-pages``: is only for demo site.  
+
+### Baseurl
+
+You can change the 'baseurl' value in the 'config.yml' file, from '/monochrome' to your preferred directory/project name (example '/xyz' or '/' to install in root)
+
+### Typography
+
+To maintain the vertical rhythm, it has been applied a **Typographic scale** as a modular scale, with a baseline set to 24px. To maintain this rhythm you need to insert elements like image, video or other contents with a 24px (or multiple) height as refer.
+
+## Resources
+
+- We found the jekyll tutorials on youtube very quick and useful to get started
+- [Jekyll documentation](http://jekyllrb.com)   
+
+## Todo
+
+- Google Analytics integration
+- Footer to stick to bottom even when content is less
+
+## Author
+
+### TheReviewIndex
+
+- Dyuti Barma
+- Web site: [Review Aggregation and Summary Site for India - TheReviewIndex.com](https://thereviewindex.com)
+
+## License
+Released under [MIT License](license.md).
